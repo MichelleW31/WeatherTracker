@@ -1,0 +1,128 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background-color: #eae9e9;
+  text-align:center;
+}
+
+body input{
+ margin: 40px 0 40px 0;
+ padding: 10px;
+ border:none;
+ font-size:14px;
+}
+
+body button{
+  padding: 10px;
+  background-color: #4a4a4a;
+  border:none;
+  font-size: 15px;
+  color:#fff;
+  border-radius: 2px;
+}
+
+#display{
+  display:flex; 
+  flex-wrap: wrap; 
+  justify-content:space-around;
+}
+
+/* .box{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  margin-bottom:30px;
+  width:30%;
+  background-color: #463535;
+  -webkit-box-shadow: 0px 10px 54px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 54px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 54px 0px rgba(0,0,0,0.75);
+}
+
+.box h2{
+  color:white;
+  font-size:14px;
+}
+
+.box h3{
+  color: #a29693;
+  letter-spacing:1px;
+}
+
+.box img{
+    width:200px;
+    height:200px;
+    margin-bottom:40px;
+}code for poor mans reddit */ 
+
+#inputs{
+  width:70%;
+  margin:0 auto 80px auto;
+  background-color: rgb(130, 130, 130);
+  width:100%;
+  -webkit-box-shadow: 0px 10px 54px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 10px 54px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 1px 25px -5px rgba(0,0,0,0.75);
+}
+
+#inputs h1{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 40px;
+  padding-top:20px;
+  color: #e0e0e0;
+}
+
+#inputs input{
+  width:20%;
+  border-radius: 2px;
+  -webkit-box-shadow: 0px 2px 31px -5px rgba(0,0,0,0.65);
+-moz-box-shadow: 0px 2px 31px -5px rgba(0,0,0,0.65);
+box-shadow: 0px 2px 31px -5px rgba(0,0,0,0.65);
+}
+
+
+#display{
+  background-color:rgba(255,255,255, 0.6);
+  width:25%;
+  max-width: 400px;
+  min-width:300px;
+  margin:0 auto;
+  border-radius:10px;
+  display:flex;
+  justify-content:flex-start;
+  -webkit-box-shadow: 0px 10px 54px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 10px 54px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 1px 45px -5px rgba(0,0,0,0.75);
+}
+
+#display div{
+  border-radius:8px;
+  width:100%
+}
+
+#display div h2{
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align:left;
+  color:#fff;
+  letter-spacing:1px;
+  font-size:20px;
+  background-color:rgba(255,255,255, 0.4);
+  padding: 10px 0 5px 10px;
+}
+
+#display div p{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size:34px;
+  text-align:left;
+  color:#fff;
+  background-color:rgba(255,255,255, 0.2);
+  padding: 0 0 5px 10px;;
+}
+
+#display img{
+  width:150px;
+  height:150px;
+}
