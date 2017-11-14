@@ -19,7 +19,7 @@ $("button").on("click", function(){
   var city = $("#city").val();
   var state = $("#state").val();
   var fadeImg;
-  $.get("http://api.wunderground.com/api/884049d93552d85e/conditions/q/" + state + "/" + city + ".json").done(function(response){
+  $.get("https://api.wunderground.com/api/884049d93552d85e/conditions/q/" + state + "/" + city + ".json").done(function(response){
     console.log(response);
     var array = response.current_observation;
     $("#display").append("<div><h2>" + array.display_location.full + "</h2><p>" +array.temperature_string + "</p></div>");
